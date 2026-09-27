@@ -1,0 +1,64 @@
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2%;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+/* Main */
+main {
+    padding: 2%;
+}
+
+main p {
+    margin-bottom: 1em;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2%;
+}
