@@ -5,60 +5,83 @@ body, header, nav, main, footer, h1, h2, h3, p, ul {
     border: 0;
 }
 
-/* Body */
-body {
-    background-color: #ffffff;
-    font-family: Arial, sans-serif;
+/* Hide elements on mobile */
+.tab-desk {
+    display: none;
 }
 
 /* Header */
 header {
+    font-size: 1.5em;
+    font-family: "DM Serif Display", serif;
     text-align: center;
     padding: 2%;
 }
 
-header h1 {
-    font-style: italic;
-}
-
 /* Navigation */
-nav {
-    background-color: #000000;
-}
-
 nav ul {
     list-style-type: none;
-    text-align: center;
 }
 
 nav li {
-    display: inline-block;
-    font-size: 1.5em;
+    display: block;
+    font-size: 2em;
 }
 
 nav li a {
     display: block;
-    color: #ffffff;
-    text-decoration: none;
     padding: 0.5em;
+    text-decoration: none;
 }
 
 /* Main */
 main {
+    font-family: Roboto, sans-serif;
     padding: 2%;
 }
 
-main p {
-    margin-bottom: 1em;
+.action {
+    font-size: 1.25em;
+}
+
+/* Lessons */
+#piano,
+#guitar,
+#violin {
+    margin: 0 2%;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+/* Contact */
+#contact .email-link {
+    text-decoration: none;
+}
+
+.tel-link {
+    background-color: #000000;
+    padding: 2%;
+    text-align: center;
+}
+
+.tel-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.map {
+    width: 95%;
+    height: 50%;
 }
 
 /* Images */
 img {
     max-width: 100%;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 2%;
 }
